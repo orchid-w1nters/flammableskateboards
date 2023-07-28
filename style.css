@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto Mono';
+    background-color: #071F2D;
+    color: #C6CEBD;
+}
+
+#flamingSkateboard {
+    position: relative;
+}
+
+#fire {
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    opacity: 0.5;
+    bottom: 2rem;
+    border-radius: 10px;
+}
+
+#skateboard {
+    width: 10rem;
+    height: 10rem;
+}
+
+#liability {
+    font-size: xx-small;
+}

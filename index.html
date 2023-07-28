@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orchid's Flammable Skateboards</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="flamingSkateboard">
+        <img src="imgs/fire.gif" alt="fire" id="fire">
+        <img src="imgs/skateboard.png" alt="skateboard" id="skateboard">
+    </div>
+    <h3>Orchid's Flammable Skateboards</h3>
+    <p>Not only will we sell you an extremely flammable skateboard(Arrested for arson or your money back!), we will set your skateboard on fire for only a little bit extra!</p>
+    <p>You read that correctly. You take in your skateboard, be it an Orchid's Flammable Skateboard&trade; or a skateboard from another skateboard shop, we will douse it in gasoline and light it on fire, without regard for the items <span id="liability">or people</span> in our shop.</p>
+    <p id = liability>If you are accidentally lit on fire or you somehow are lit on fire will in our shop or using an Orchid's Flammable Skateboard&trade;, we are NOT LIABLE!. We are not liable for any injury or death that results from the usage of our product,</p>
+    <p id = "liability">the Orchid's Flammable Skateboard&trade;.</p>
+
+    <h3>Reviews</h3>
+    <p>"AAAAGHHHH PLEASE I'M GOING TO DIE HELP ME PLEASE"</p>
+    <p>--A satisfied customer</p>
+
+    <p>"Your honor, the son of my client was burnt to death while using one of Orchid's Flammable Skateboards&trade;. According to several witnesses, who I believe you know were under oath,
+        The people who worked at Orchid's Flammable Skateboards&trade; were watching and apparently "laughing maniacally". Also, may I direct your attention to exhibit A: An image of the inside of the shop.
+        The aforementioned workers at the shop were in reach of at least one fire extinguisher."--Another satisfied customer<span id="liability">'s representation</p>
+</body>
+</html>
+
+<script>
+    $(document).ready(function () {
+        $("#fire").hide()
+    })
+
+    $("#skateboard").hover(function () {
+        $("#fire").show()
+    }, function () {
+        $("#fire").hide()
+    })
+</script>
